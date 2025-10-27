@@ -75,7 +75,7 @@ export default function Modal({
               className="w-96 h-80 object-cover"
             />
           </div>
-          <div className="p-4 md:w-1/3">
+          <div className="p-4 md:w-auto">
             <h2 className="text-xl font-semibold">{photo.title}</h2>
             <p className="mt-2 text-sm">{photo.description}</p>
             <div className="mt-3 flex flex-wrap gap-2">

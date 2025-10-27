@@ -30,4 +30,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 I use the Next.js App Router with usePathname() to detect when the current URL matches a photo route (like /photos/[id]). When it does, the Modal component renders on top of the gallery — this keeps the gallery state (scroll position, loaded images, etc.) intact. Closing the modal calls router.back() which restores the previous route and state without re-rendering the gallery. If the user navigates directly to /photos/[id], the same content is rendered as a standalone page instead of a modal.
 
-
+ <img src="./public/Screenshot.png" alt="hiking" width="auto" />

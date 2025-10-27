@@ -25,7 +25,7 @@ export default async function PhotoPage({
         />
       </div>
 
-      <h1 className="text-3xl font-bold mt-6">{photo.title}</h1>
+      <h1 className="text-3xl font-bold mt-6 ">{photo.title}</h1>
       <p className="text-gray-600 dark:text-gray-300 mt-2">
         {photo.description}
       </p>
