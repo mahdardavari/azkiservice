@@ -1,8 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { Photo } from "../lib/data";
-
 
 export default function ImageCard({ photo }: { photo: Photo }) {
   return (
@@ -12,6 +10,7 @@ export default function ImageCard({ photo }: { photo: Photo }) {
       prefetch={false}
     >
       <div className="relative h-64 sm:h-48 md:h-56 lg:h-64 bg-gray-200 group-hover:scale-105 transition-transform duration-300">
+        {/* TODO refactor to Image */}
         <img
           src={photo.src}
           alt={photo.title}
